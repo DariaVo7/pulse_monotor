@@ -39,7 +39,7 @@
     &__content { /* изначально контент не видно, но когда присваивается класс активности active, контент виден */
         margin-top: 60px;
         display: none;
-        justify-content: space-between;
+        justify-content: space-around;
         flex-wrap: wrap;
         &_active {
             display: flex;
